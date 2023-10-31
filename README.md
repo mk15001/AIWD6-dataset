@@ -13,9 +13,13 @@ AIWD6 dataset can be downloaded ([https://drive.google.com/file/d/1QwkxbhTl25x9F
 
 This dataset is provided for academic and research purposes only.
 
+<h2> Citation</h2>
 
+If you use this dataset, consider citing our paper.
 
-This work has been accepted at "IEEE Transactions on Intelligent Transportation Systems."
+```
+Madhavi Kondapally, K Naveen Kumar, C Krishna Mohan. "Towards a Transitional Weather Scene Recognition Approach for Autonomous Vehicles", IEEE Transactions on Intelligent Transportation Systems, 2023
+
 
 
 
