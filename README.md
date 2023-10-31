@@ -1,33 +1,9 @@
 # AIWD6-dataset
 ## Dataset for capturing continuous weather scenarios
-<img src="images/m2smart.png" width="200"> <img src="images/iith.png" width="100">
-
+ 
+<img src="images/iith.png" width="200">
 We introduce a large-scale comprehensive dataset known as the Adverse Intermediate Weather Driving (AIWD6) dataset. This dataset comprises six transitional weather states designed for autonomous driving scenarios: cloudy to rainy, rainy to cloudy, sunny to rainy, rainy to sunny, sunny to foggy, and foggy to sunny. These transitional states are generated at various temporal scales. Further, we propose an approach to classify the transitional weather images using a gated recurrent unit (GRU). We anticipate that our dataset with realistic continuous weather shifts will shape the data collection paradigm for real-world driving datasets and advance scene perception techniques for AVs. Additionally, the spatio-temporal CNN-GRU followed by an attention mechanism could effectively classify the weather transition data even for larger sequences. In future, we would like to improve the quality of generated data, anticipate the weather transition state, and perform segmentation on the AIWD6 dataset.
-
-**Paldi (P)**         | **Nehru Bridge Ashram Road (N)**       
-----------------|--------------
-![](images/paldi.png) |![](images/nehru.png)
-4-way signalized intersection | 4-way signalized intersection 
-**APMC market (A)**
-![](images/apmc.png)
-3-way unsignalized intersection
-
-
-<h2> Spatio - Temporal Annotations </h2>
-
-Spatial regions of traffic states for the above intersections are manually annotated as shown below <br>
-
-**Red: Clump, Yellow: Neutral, Blue: Unclump**
-
-**Paldi (P)**         | **Nehru Bridge Ashram Road (N)**       
-----------------|--------------
-![](images/paldi.jpg) |![](images/nehru.jpg)
-4-way signalized intersection | 4-way signalized intersection 
-**APMC market (A)**
-![](images/apmc.jpg)
-3-way unsignalized intersection
-
-
+<img src="transitions.png" width="800">
 
 Spatial annotations can be downloaded here:[Paldi](https://drive.google.com/file/d/1QwkxbhTl25x9F1sOD8iH3Hy-yMmqYXD2/view?usp=sharing), [Nehru](https://drive.google.com/file/d/1x7GMiAUyp47DPDXtt5KoRqhoKFk_bYTI/view?usp=sharing), [APMC](https://drive.google.com/file/d/1XXFk2RGhHDkUfyARKSZe-mhEuAmDFEqb/view?usp=sharing)
 
