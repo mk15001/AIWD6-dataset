@@ -1,7 +1,7 @@
 # AIWD6-dataset
 ## Dataset for capturing continuous weather scenarios
  
-<img src="images/iith.png" width="200">
+<img src="iith1.png" width="200">
 We introduce a large-scale comprehensive dataset known as the Adverse Intermediate Weather Driving (AIWD6) dataset. This dataset comprises six transitional weather states designed for autonomous driving scenarios: cloudy to rainy, rainy to cloudy, sunny to rainy, rainy to sunny, sunny to foggy, and foggy to sunny. These transitional states are generated at various temporal scales. Further, we propose an approach to classify the transitional weather images using a gated recurrent unit (GRU). We anticipate that our dataset with realistic continuous weather shifts will shape the data collection paradigm for real-world driving datasets and advance scene perception techniques for AVs. Additionally, the spatio-temporal CNN-GRU followed by an attention mechanism could effectively classify the weather transition data even for larger sequences. In future, we would like to improve the quality of generated data, anticipate the weather transition state, and perform segmentation on the AIWD6 dataset.
 <img src="transitions.png" width="800">
 
