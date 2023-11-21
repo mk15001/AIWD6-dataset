@@ -22,8 +22,18 @@ This dataset is provided for academic and research purposes only.
 
 If you use this dataset, consider citing our paper.
 
-Madhavi Kondapally, K Naveen Kumar, Chalavadi Vishnu, and C Krishna Mohan. "Towards a Transitional Weather Scene Recognition Approach for Autonomous Vehicles", _IEEE Transactions on Intelligent Transportation Systems_, 2023.
 
 
+M. Kondapally, K. N. Kumar, C. Vishnu and C. K. Mohan, "Towards a Transitional Weather Scene Recognition Approach for Autonomous Vehicles," in _IEEE Transactions on Intelligent Transportation Systems_, doi: 10.1109/TITS.2023.3331882.
+
+@ARTICLE{10323218,
+  author={Kondapally, Madhavi and Kumar, K. Naveen and Vishnu, Chalavadi and Mohan, C. Krishna},
+  journal={IEEE Transactions on Intelligent Transportation Systems}, 
+  title={Towards a Transitional Weather Scene Recognition Approach for Autonomous Vehicles}, 
+  year={2023},
+  volume={},
+  number={},
+  pages={1-10},
+  doi={10.1109/TITS.2023.3331882}}
 
 
