@@ -5,7 +5,7 @@ We introduce a large-scale comprehensive dataset known as the Adverse Intermedia
 
 <img src="transitions.png" width="800">
 
-AIWD6 dataset can be downloaded ([https://iith-my.sharepoint.com/:u:/g/personal/cs21resch15001_iith_ac_in/EY5sD2m3w1VKlu8D2H8OPy4BB0DIm9hhpsw-0vEpWjTTFQ?e=SIpuZi]) or (https://drive.google.com/file/d/1Y_QZCGWr8hu2K83hhX_BzlqcPqJx70YU/view?usp=drive_link))
+AIWD6 dataset can be downloaded (https://iith-my.sharepoint.com/:u:/g/personal/cs21resch15001_iith_ac_in/Edk5fALBsylKutRXkgchuXoBKlUOgv50W3BGBw_U8S5Qsg?e=9MhTZ4)
 
 The overall breakdown of the AIWD6 dataset is given below, where the number of input samples for each discrete weather condition are 293.
 
