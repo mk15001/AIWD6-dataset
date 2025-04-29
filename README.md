@@ -14,7 +14,7 @@ The overall breakdown of the AIWD6 dataset is given below, where the number of i
 
 ## Object Detection
 
-We have manually annotated the AIWD6 dataset to perform object detection. To perform object detection and to evaluate the performance with the ground truth, we annotated the AIWD6 dataset to detect eight classes, i.e., person, bicycle, car, motorcycle, bus, train, truck, and traffic light, using the LabelImg annotation tool. Initially, we generated annotations in VOC XML format and transformed them into COCO JSON format. We annotated a total of 17,580 images for our task.
+We manually annotated the AIWD6 dataset to facilitate object detection tasks. Specifically, we labeled 17,580 images across eight object categories: person, bicycle, car, motorcycle, bus, train, truck, and traffic light. The annotations were initially created using the LabelImg tool in VOC XML format and subsequently converted to COCO JSON format to align with standard object detection evaluation protocols. This annotated dataset enables comprehensive performance evaluation against ground truth across diverse weather conditions.
 
 <img src="Qualitative_detection.png" width="800">
 
