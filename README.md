@@ -18,6 +18,11 @@ We manually annotated the AIWD6 dataset to facilitate object detection tasks. Sp
 
 <img src="Qualitative_detection.png" width="800">
 
+## Transitional Weather Forecasting
+
+Current autonomous driving literature often overlooks the critical aspects of weather forecasting, particularly in transitional weather scenarios. Predicting weather changes is crucial to ensure consistent performance and accurate scene perception in dynamic environmental conditions. Hence, we propose a novel framework called Transitional Weather Forecasting Network (TWFNet), an end-to-end spatiotemporal architecture comprising two main modules, (i) a transformer network with encoder and decoder layers to process CNN-extracted spatial features from image sequences, generating temporal features for the predicted weather transition sequence and (ii) GRU layers with self-attention for classifying the generated temporal features into different transition weather states. These components are trained jointly, providing a robust solution for forecasting transitional weather patterns.
+
+<img src="pr.png" width="800">
 
 <h2> License </h2>
 
@@ -48,6 +53,13 @@ If you use this dataset, consider citing our papers.
   pages={1-8},
   keywords={Measurement;Adaptation models;Clouds;Object detection;Transformers;Data models;Object recognition;Autonomous vehicles;transitional weather states;object detection;domain adaptation},
   doi={10.1109/IJCNN60899.2024.10651445}}
-
-
+  
+@article{madhavi2025twfnet,
+  title={TWFNet: Introducing Transitional Weather Conditions for Autonomous Driving with a Spatio-temporal Forecasting Network},
+  author={Madhavi, Kondapally and Kumar, K Naveen and Gayathri, Chalavadi},
+  journal={Pattern Recognition},
+  pages={112154},
+  year={2025},
+  publisher={Elsevier}
+}
 
